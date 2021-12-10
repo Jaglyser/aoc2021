@@ -36,7 +36,7 @@ def main(input):
         points2
         val = findError(line)
         try:
-            score += findError(line)
+            score += val
         except:
             print("no syntax errors")
             autoScore.extend(val)

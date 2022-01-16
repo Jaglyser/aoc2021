@@ -2,7 +2,7 @@ import re
 import requests as rq
 s = rq.Session()
 r = rq.get('https://adventofcode.com/2021/day/1/input',
-           cookies={'session': "53616c7465645f5fddc9931aac16cd503d2916d3685a3128b3bb047b133c1eb58a87aba37276060d96e236ee42c9ff17"})
+           cookies={'session': <COOKIE>})
 list = []
 index = 0
 count = 0
